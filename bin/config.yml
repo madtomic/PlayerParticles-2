@@ -1,0 +1,30 @@
+######################################################
+#               PlayerParticles Config               #
+#     DO NOT DELETE OR EDIT THE FIELD "version"!     #
+######################################################
+
+# DO NOT CHANGE THIS UNDER ANY CIRCUMSTANCE
+# Default: 2.5
+version: 2.5
+
+# Whether or not to use the message-prefix field when displaying messages
+# Default: true
+use-message-prefix: true
+
+# The prefix to use for all PlayerParticle messages
+# Use & to set color / format
+# Default: '&c[&ePlayerParticles&c]'
+message-prefix: '&c[&ePlayerParticles&c]'
+
+# If you're using other plugins to execute commands you may wish to turn off messages
+# Default: true
+messages-enabled: true
+
+# There are 20 minecraft ticks per second
+# The default value of 20 means a particle will be displayed every tick
+# That means 20 particles will be displayed per second
+# If ticks-per-particle was set to 5, then 4 particles would be displayed per second since 20/5 is 4
+# If your server is experiencing lag after installing this plugin, raising this value should help
+# Setting this value to 0.5 will cause 40 particles to appear per second. Be warned this could cause strain on the server.
+# Default: 1
+ticks-per-particle: 1
