@@ -4,8 +4,8 @@
 ######################################################
 
 # DO NOT CHANGE THIS UNDER ANY CIRCUMSTANCE
-# Default: 2.5
-version: 2.5
+# Default: 2.6
+version: 2.6
 
 # Whether or not to use the message-prefix field when displaying messages
 # Default: true
@@ -28,3 +28,46 @@ messages-enabled: true
 # Setting this value to 0.5 will cause 40 particles to appear per second. Be warned this could cause strain on the server.
 # Default: 1
 ticks-per-particle: 1
+
+# ================================================================
+#                     MESSAGE CONFIGURATION
+# Important Notes:
+# * {PARTICLE} displays the particle argument used in the command
+# * You can not use the apostrophe character! ( ' )
+# ================================================================
+
+# Invalid Particles
+# Default: 'Invalid arguments!'
+message-invalid-arguments: 'Invalid Arguments!'
+
+# No Permission
+# Default: 'You do not have permission to use type {PARTICLE} particles!'
+message-no-permission: 'You do not have permission to use type {PARTICLE} particles!'
+
+# /pp list No Particles
+# Default: 'You do not have permission to use any particles!'
+message-no-particles: 'You do not have permission to use any particles!'
+
+# Now Using
+# Default: 'Now using type {PARTICLE} particles!'
+message-now-using: 'Now using type {PARTICLE} particles!'
+
+# Cleared Particles
+# Default: 'Cleared your particles!'
+message-cleared-particles: 'Cleared your particles!'
+
+# Usage
+# Default: 'Usage:'
+message-usage: 'Usage:'
+
+# You Can Use
+# Default: 'You can use:'
+message-use: 'You can use:'
+
+# Invalid Particle Type
+# Default: 'Invalid particle type!'
+message-invalid-type: 'Invalid particle type!'
+
+# Reload
+# Default: 'Reloaded Config!'
+message-reload: 'Reloaded Config!'

@@ -16,6 +16,13 @@ public class MessageManager {
 		messagePrefix = messagePrefix.replace("&", "§");
 	}
 	
+	public void reload() {
+		messagesEnabled = PlayerParticles.getPlugin().getConfig().getBoolean("messages-enabled");
+		prefix = PlayerParticles.getPlugin().getConfig().getBoolean("use-message-prefix");
+		messagePrefix = PlayerParticles.getPlugin().getConfig().getString("message-prefix");
+		messagePrefix = messagePrefix.replace("&", "§");
+	}
+	
 	public static MessageManager getInstance(){
 		return instance;
 	}

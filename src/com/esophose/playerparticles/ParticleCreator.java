@@ -124,8 +124,8 @@ public class ParticleCreator extends BukkitRunnable implements Listener {
 			return;
 		}else
 		if(effect.equals(ParticleType.FOOTSTEP)){
-			ParticleEffect particle = new ParticleEffect(effect, 0.4F, 0.4F, 0.4F, 0.0F, 1);
-			particle.display(location);
+			ParticleEffect particle = new ParticleEffect(effect, 0.4F, 0.0F, 0.4F, 0.0F, 1);
+			particle.display(location.subtract(0, 0.98, 0));
 			return;
 		}else
 		if(effect.equals(ParticleType.HAPPY_VILLAGER)){

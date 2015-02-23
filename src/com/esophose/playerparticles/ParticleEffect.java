@@ -401,7 +401,7 @@ public class ParticleEffect {
 		 *
 		 * @return The name of the particle effect
 		 */
-		String getName(){
+		public String getName(){
 			return name;
 		}
 
